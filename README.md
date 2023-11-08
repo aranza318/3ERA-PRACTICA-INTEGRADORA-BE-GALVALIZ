@@ -1,12 +1,12 @@
-# Logger
+# 3era Practica Integradora 
 
-Proyecto de backend entrega con logger
+Proyecto de backend  3ra pre-entrega final 
 
 El proyecto esta compuesto por las siguientes partes:
 Carpeta src, la cual a su vez reune dentro suyo a:
 
 1. Config, que guarda dentro suyo a config.js (donde se aloja dotenv y al environment), a los env de production, default y decelopment, y tambien a logger.js.
-2. Controllers, figuran aqui todos los controladores que trabajaran con los servicios (auth, cart, products, user, messages, sms y ticket).
+2. Controllers, figuran aqui todos los controladores que trabajaran con los servicios (reset de contraseña, auth, cart, products, user, messages, sms y ticket).
 3. Dao, gracias a esta gran carpeta podemos ver organizado todo lo siguiente:
 A. Carpeta dtos dondese aloja a los archivos dto.factory, user.dto.js y user.response.js.
 B. Carpeta fs donde estan los archivos file sistem.
@@ -24,7 +24,7 @@ D. Por ultimo y no en importacia tambien aqui encontraremos a los archivos: cart
 10. Carpeta repository quien agrupa en su interior a los archivos contacts.repository.js e index.js.
 11. Routes, por aqui pasaran todas las rutas para unir a la app con las vistas a los diferentes sectores de la pagina.
 12. Services, quien aloja a todos los servicios que trabajaran con los controladores.
-Carpeta view donde estan las vistas de la pagina, la cual contiene a layouts(donde encontraremos a main.handlebars) y tambien a las vistas de cart, products, product detail, login, register, restore, profile, chat y real time products
+Carpeta view donde estan las vistas de la pagina, la cual contiene a layouts(donde encontraremos a main.handlebars) y tambien a las vistas de cart, reset password, restore, products, product detail, login, register, restore, profile, chat y real time products.
 
 Env., quien trabaja reservando las variables para dotenv.
 
